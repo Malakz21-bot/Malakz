@@ -1,7 +1,7 @@
 {
-  "name": "Kord",
+  "name": "MALAKZ 💀",
   "version": "2.0.0",
-  "description": "Kord Multi-Device WhatsApp Bot",
+  "description": "Malakz Multi-Device WhatsApp Bot",
   "logo": "https://cdn.kord.live/serve/UAkzzmMoZwY0.png",
   "keywords": ["whatsapp", "bot", "kord"],
   "repository": "https://github.com/M3264/Kord",
@@ -14,11 +14,11 @@
       "required": true
     },
     "OWNER_NUMBER": {
-      "description": "Owner number of user with country code",
+      "description": "256787038917",
       "required": true
     },
     "WORKTYPE": {
-      "description": "Either private or public",
+      "description": "private",
       "required": true
     },
     "PREFIX": {
@@ -27,7 +27,7 @@
     },
     "ALWAYS_ONLINE": {
       "description": "Makes the bot mark account online always",
-      "required": false
+      "required": true 
     },
     "MONGODB_URI": {
       "description": "MongoDB URL for economy commands, without it economy commands won't work",
@@ -35,11 +35,11 @@
     },
     "STATUS_VIEW": {
       "description": "Automatically view status",
-      "required": false
+      "required": true 
     },
     "SAVE_STATUS": {
       "description": "Automatically send status updates to owner",
-      "required": false
+      "required": true 
     },
     "ERROR_MSG": {
       "description": "Send error to owner when command fails",
@@ -74,11 +74,11 @@
       "required": false
     },
     "OWNER_NAME": {
-      "description": "Display name of the bot owner",
+      "description": "Malakz Emmy",
       "required": true
     },
     "BOT_NAME": {
-      "description": "Display name of the bot",
+      "description": "MALAKZ 💀",
       "required": true
     },
     "RENDER_API_KEY": {
@@ -87,7 +87,7 @@
     },
     "ANTIDELETE": {
       "description": "Sends deleted message to owner's DM",
-      "required": false
+      "required": true 
     },
     "ANTIDELETE_INCHAT": {
       "description": "Sends deleted message to the same chat it was deleted",
@@ -98,7 +98,7 @@
       "required": false
     },
     "SUDO": {
-      "description": "Number of allowed users if bot is private, syntax: 2341234567;234654321",
+      "description": "Number of allowed users if bot is private, syntax:",
       "required": false
     },
     "MODS": {
@@ -118,8 +118,8 @@
       "required": false
     },
     "VV_CMD": {
-      "description": "Emoji to automatically send replied viewOnce to owner",
-      "required": false
+      "description": "🥰,💖",
+      "required": true 
     },
     "RES_TYPE": {
       "description": "How bot responds in some commands, use text/poll",
